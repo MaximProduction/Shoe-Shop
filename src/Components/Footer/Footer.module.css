@@ -1,0 +1,107 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1210px) {
+  .title {
+    font-size: 16px;
+  }
+  .describtion {
+    font-size: 14px;
+  }
+  .container1 {
+    gap: 145px;
+  }
+  .FooterDouble {
+    gap: 145px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1210px) {
+  .title {
+    font-size: 16px;
+  }
+  .describtion {
+    font-size: 12px;
+  }
+  .container1 {
+    gap: 70px;
+  }
+
+  .FooterDouble {
+    gap: 70px;
+  }
+}
+@media (min-width: 640px) and (max-width: 960px) {
+  .title {
+    font-size: 14px;
+  }
+  .container1 {
+    gap: 70px;
+    flex-direction: column;
+  }
+  .describtion {
+    font-size: 12px;
+  }
+  .FooterDouble {
+    gap: 150px;
+    justify-content: center;
+  }
+}
+@media (min-width: 440px) and (max-width: 640px) {
+  .title {
+    font-size: 14px;
+  }
+  .container1 {
+    gap: 70px;
+    flex-direction: column;
+    margin: 0px 50px;
+  }
+  .describtion {
+    font-size: 12px;
+  }
+  .FooterDouble {
+    gap: 150px;
+    justify-content: center;
+  }
+}
+@media (min-width: 1px) and (max-width: 440px) {
+  .title {
+    font-size: 14px;
+  }
+  .container1 {
+    gap: 70px;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .describtion {
+    font-size: 12px;
+  }
+  .FooterDouble {
+    gap: 70px;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.FooterBackground {
+  background-color: #1f1f1f;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+}
+.FooterOneOwner {
+  color: white;
+  max-width: 260px;
+}
+.title {
+  color: #525252;
+
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.describtion {
+  line-height: 1.5;
+}
+.FooterDouble {
+  display: flex;
+}

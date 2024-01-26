@@ -1,0 +1,14 @@
+@media (max-width: 1210px) {
+  .LineOutBlock {
+  }
+}
+@media (min-width: 670px) and (max-width: 1210px) {
+  .LineOutBlock {
+    width: 620px;
+  }
+}
+@media (min-width: 1px) and (max-width: 670px) {
+  .LineOutBlock {
+    max-width: 100%;
+  }
+}

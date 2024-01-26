@@ -1,0 +1,38 @@
+.HeaderIcon {
+}
+.responsiveImage {
+  display: block;
+  margin: 0 auto;
+}
+.box {
+  padding: 20px;
+
+  margin: 10px;
+}
+
+@media (min-width: 1px) {
+  .responsiveImage {
+    max-width: 100%; /* Изображение не будет шире, чем 100% ширины родительского контейнера */
+    height: auto; /* Сохранение соотношения сторон */
+  }
+}
+@media (min-width: 679px) {
+  .responsiveImage {
+    max-width: 600px; /* Изображение не будет шире, чем 100% ширины родительского контейнера */
+    height: auto; /* Сохранение соотношения сторон */
+  }
+}
+
+@media (min-width: 968px) {
+  .responsiveImage {
+    max-width: 620px; /* Изменение максимальной ширины для больших экранов */
+    height: auto;
+  }
+}
+
+@media (min-width: 1210px) {
+  .responsiveImage {
+    max-width: 760px; /* Изменение максимальной ширины для очень больших экранов */
+    height: auto;
+  }
+}

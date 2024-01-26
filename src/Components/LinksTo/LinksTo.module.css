@@ -1,0 +1,76 @@
+.LinksOutsideCon {
+  /* max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px; */
+  padding: 20px;
+
+  margin: 10px;
+}
+
+@media (min-width: 1210px) {
+  .instagram {
+    padding: 5px 65px;
+  }
+}
+@media (min-width: 1210px) {
+  .telegram {
+    padding: 5px 65px;
+  }
+}
+@media (min-width: 1210px) {
+  .viber {
+    padding: 5px 65px;
+  }
+}
+@media (min-width: 1210px) {
+  .tiktok {
+    padding: 5px 65px;
+  }
+}
+@media (min-width: 1px) and (max-width: 1210px) {
+  .instagram {
+    padding: 5px 45px;
+  }
+  .telegram {
+    padding: 5px 45px;
+  }
+  .viber {
+    padding: 5px 45px;
+  }
+  .tiktok {
+    padding: 5px 45px;
+  }
+}
+
+.LinksToContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.instagram {
+  background-color: #f00075;
+  /* min-width: 160px; */
+  border-radius: 6px;
+
+  align-items: center;
+}
+.telegram {
+  background-color: #1d98dc;
+
+  border-radius: 6px;
+  align-items: center;
+}
+.viber {
+  background-color: #9f0ae4;
+
+  border-radius: 6px;
+  align-items: center;
+}
+.tiktok {
+  background-color: black;
+  align-items: center;
+
+  border-radius: 6px;
+}

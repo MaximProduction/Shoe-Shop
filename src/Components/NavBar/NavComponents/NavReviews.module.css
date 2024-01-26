@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .OurReviews {
+    font-size: 42px;
+    font-weight: 700;
+  }
+  .OutsideContainer {
+    gap: 200px;
+  }
+  .ReviewsContainer {
+    margin-bottom: 85px;
+  }
+  .describtion {
+    width: 300px;
+  }
+}
+@media (min-width: 961px) and (max-width: 1210px) {
+  .OutsideContainer {
+    gap: 50px;
+  }
+  .OurReviews {
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .ReviewsContainer {
+    margin-bottom: 85px;
+  }
+  .describtion {
+    width: 300px;
+  }
+}
+@media (min-width: 640px) and (max-width: 960px) {
+  .OutsideContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .OurReviews {
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .describtion {
+    width: 300px;
+  }
+  .Name {
+    margin-bottom: 40px;
+  }
+  .ReviewsContainer {
+  }
+  .AllContentBlock {
+  }
+}
+@media (min-width: 1px) and (max-width: 640px) {
+  .OutsideContainer {
+    flex-direction: column;
+  }
+  .OurReviews {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .Name {
+    margin-bottom: 40px;
+  }
+}
+
+.ReviewsContainer {
+  display: flex;
+  gap: 30px;
+}
+.describtion {
+  line-height: 1.5;
+}
+.OutsideContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Name {
+  font-weight: 700;
+  margin-top: 15px;
+}
+.OurReviews {
+  margin: 100px 0;
+}

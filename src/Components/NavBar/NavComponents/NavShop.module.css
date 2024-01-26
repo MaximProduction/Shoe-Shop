@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 0;
+}
+.FirstThirdBlocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 1210px) {
+  .BootOwner {
+  }
+  .container {
+    gap: 40px;
+  }
+}
+@media (min-width: 967px) and (max-width: 1210px) {
+  .BootOwner {
+    width: 300px;
+    height: 300px;
+  }
+  .container {
+    gap: 10px;
+  }
+}
+@media (min-width: 640px) and (max-width: 967px) {
+  .container {
+    gap: 40px;
+  }
+  .BootOwner {
+    width: 280px;
+    height: 280px;
+  }
+}
+@media (min-width: 1px) and (max-width: 640px) {
+  .BootOwner {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+.BootBlock {
+  flex-basis: calc(25.1% - 10px);
+  margin: 5px;
+  box-sizing: border-box;
+}
+.AfterCon {
+  max-width: 1400px;
+}
+.BootOwner {
+}
+.describtion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CrossedOut {
+  color: #bdbdbd;
+}
+
+.describrion1 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+  padding: 15px 0;
+  font-family: "Arial";
+}
+.describrion2 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Arial";
+}
+.describrion3 {
+  font-size: 21px;
+}
+.describrion4 {
+  font-size: 21px;
+}
+.describrion5 {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 25px 0;
+}
+.describrionButtons {
+  display: flex;
+}
+.Button1 {
+  background-color: red;
+  color: white;
+  border-radius: 9px;
+  width: 120px;
+  height: 40px;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 7px;
+  margin-bottom: 30px;
+}
+.Button2 {
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 9px;
+  font-weight: 550;
+}
